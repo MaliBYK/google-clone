@@ -44,7 +44,7 @@ const Header = () => {
 						Search
 					</button>
 				</form>
-				<Avatar className="ml-auto" url="https://i.imgur.com/5FcyoGw.png" />
+				<Avatar className="ml-auto" url="https://i.imgur.com/vavfJqu.gif" />
 			</div>
 
 			<HeaderOptions />
