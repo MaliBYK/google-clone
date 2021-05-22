@@ -20,7 +20,7 @@ export default Search;
 
 export async function getServerSideProps({ query }) {
 	const startIndex = query.start || '0';
-	const useDummyData = false;
+	const useDummyData = true;
 	let res;
 	if (useDummyData) {
 		res = Response;
@@ -32,7 +32,7 @@ export async function getServerSideProps({ query }) {
 
 		return {
 			props: {
-				results: res,
+				results: data,
 			},
 		};
 	}
